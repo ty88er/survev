@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/zoom.js"
+      }
+    },
+    "condition": {
+      "urlFilter": "ClG1ldvt.js",
+      "resourceTypes": ["script"],
+      "domains": ["survev.io"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/main.png"
+      }
+    },
+    "condition": {
+      "urlFilter": "https://survev.io/assets/main-0-50-ef4b09d8.png",
+      "resourceTypes": ["image"],
+      "domains": ["survev.io"]
+    }
+  },
+    {
+    "id": 3,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/cobalt.png"
+      }
+    },
+    "condition": {
+      "urlFilter": "https://survev.io/assets/cobalt-0-50-cd168e76.png",
+      "resourceTypes": ["image"],
+      "domains": ["survev.io"]
+    }
+  },
+  {
+    "id": 4,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/shared.png"
+      }
+    },
+    "condition": {
+      "urlFilter": "https://survev.io/assets/shared-2-50-db491298.png",
+      "resourceTypes": ["image"],
+      "domains": ["survev.io"]
+    }
+  },
+  {
+    "id": 5,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/gradient.png"
+      }
+    },
+    "condition": {
+      "urlFilter": "https://survev.io/assets/gradient-0-50-3ac4a032.png",
+      "resourceTypes": ["image"],
+      "domains": ["survev.io"]
+    }
+  }
+]
+
+
+
+
+
+
