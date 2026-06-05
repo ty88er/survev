@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Survev.io Client",
+  "version": "1.1",
+  "description": "Added: Scroll wheel adjustable zoom, with more than 2x normal view, Permanant see-through ceilings Last update ClG1ldvt.js",
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess"
+  ],
+  "host_permissions": [
+    "<all_urls>" 
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["zoom.js","Second.js","test.js","main.png","cobalt.png","shared.png","gradient.png"],
+      "matches": ["https://survev.io/*"]
+    }
+  ]
+}
